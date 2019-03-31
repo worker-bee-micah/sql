@@ -1,0 +1,6 @@
+
+*.log
+build/
+temp-*
+.env
+.ipynb_checkpoints
