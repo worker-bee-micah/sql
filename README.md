@@ -5,7 +5,14 @@ General concepts for building tables, select statements, joins and inserts are c
 
 Data sets are chosen for their cross platform compatibility, you should be able to load them into PostgreSQL, Oracle and SQLite3.
 
-Source code and example data from :   http://shop.oreilly.com/product/0636920013471.do
-"SQL Pocket Guide" by jonathan Gennick
+Links to SQL code sources:
 
-end
+[Learning PostgreSQL](https://www.packtpub.com/big-data-and-business-intelligence/learning-postgresql)
+
+[SQL Pocket Guide by Jonathan Gennick](http://shop.oreilly.com/product/9780596005122.do)
+
+['Sam's Teach Yourself SQL'](https://www.oreilly.com/library/view/sams-teach-yourself/9780132603911/)
+ 
+[Dave Berry : Pluralsight](https://www.pluralsight.com/authors/david-berry)
+
+
