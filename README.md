@@ -11,7 +11,7 @@ Links to SQL code sources:
 
 [SQL Pocket Guide by Jonathan Gennick](http://shop.oreilly.com/product/9780596005122.do)
 
-['Sam's Teach Yourself SQL'](https://www.oreilly.com/library/view/sams-teach-yourself/9780132603911/)
+[Sam's Teach Yourself SQL](https://www.oreilly.com/library/view/sams-teach-yourself/9780132603911/)
  
 [Dave Berry : Pluralsight](https://www.pluralsight.com/authors/david-berry)
 

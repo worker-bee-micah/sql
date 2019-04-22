@@ -1,7 +1,7 @@
 #Build Queries with the SELECT statement
 
 Retreive data from a table and/or view with a *query*.  Combine with a hierarchical query or subqueries which are covered after the basiscs.
-
+_____
 General syntax:
     
 >SELECT   *expression_lists*, comma separated, becomes a column in the results.
@@ -16,7 +16,7 @@ General syntax:
 >
 >ORDER BY *expression_lists*
 
-
+_____
 **SELECT Statements**
 
 Return specific list of columns, all * or an expression
@@ -68,16 +68,27 @@ ____
 |---------------------:|--------------------------------------------------|
     
 |=                     | Equals                                           |
+
 |!= , <>               | Inequality                                       |
+
 |< , <=                | Less than or equal to                            |
+
 |>, >=                 | Greater than or equal to                         |
+
 |BETWEEN               | Is value within range                            |
+
 |EXISTS, NOT EXISTS    | Does it match a condition                        |
+
 |IN                    | Is value contained in a set of specified values  |
+
 |IS NOT NULL           | Nullity tests                                    |
+
 |LIKE, NOT LIKE        |Does a value match a pattern                      |
+
 |LIKEC, LIKE2, LIKE4   |Oralc only: Unicode chars, code units, code points|
+    
 |REGEXP, RLIKE         |MySQL only, comparison operators                  |
+
 |REGEXP_LIKE           |Oracle only, value matches pattern tests          |
 
 
