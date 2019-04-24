@@ -8,7 +8,7 @@ Links to SQL code sources:
 
 [SQL Pocket Guide by Jonathan Gennick](http://shop.oreilly.com/product/9780596005122.do)
 
-["Sam's Teach Yourself SQL"](https://www.oreilly.com/library/view/sams-teach-yourself/9780132603911/)
+[Sam's Teach Yourself SQL](https://www.oreilly.com/library/view/sams-teach-yourself/9780132603911/)
  
 [Dave Berry : Pluralsight](https://www.pluralsight.com/authors/david-berry)
 
@@ -59,11 +59,12 @@ Usually based on primary keys common to both tables.
 >WHERE table1.col_name = table2.col_name
 >
 > AND table1.col_name = table3.col_name
-
+___
 
 Non-equijoin, each row is matched with all rows from table2 
 Syntax:
- 
+
+_____    
 >SELECT table1, table 2, table3
 > 
 >WHERE table1.col_name != table2.col_name
@@ -71,7 +72,7 @@ Syntax:
 >AND table1.col_name != table3.col_name;
 > 
 >//AND table1.col_name <> table3.col_name;
-
+_____
 
 ___
 **Inner joins**
@@ -80,7 +81,8 @@ Forms a Cartesian product, then filters the rows with the join conditions.
  Table order does not matter with inner joins. 
  
 Basic syntax:
- 
+
+____    
 >SELECT  table1.col1, table2.col2 ...
 > 
 >FROM table1
@@ -137,13 +139,13 @@ the FROM clause of the query, give two aliases.
 
 Another example:
  
->SELECT a.last_name, b.last_name, a.first_name
+> SELECT a.last_name, b.last_name, a.first_name
 > 
->FROM employee_tbl a,
+> FROM employee_tbl a,
 > 
 >     employee_tbl b
 > 
->WHERE a.last_name = b.last_name;
+> WHERE a.last_name = b.last_name;
 
 
 
@@ -214,13 +216,13 @@ Syntax:
  
 Oracle product example:
  
->SELECT P.PROD_DESC, O.QTY
+> SELECT P.PROD_DESC, O.QTY
 > 
->FROM PRODUCTS_TBL P,
+> FROM PRODUCTS_TBL P,
 > 
 >     ORDERS_TBL O
 > 
->WHERE P.PROD_ID = O.PROD_ID(+);
+> WHERE P.PROD_ID = O.PROD_ID(+);
  
  
 A more verbose version of the above join syntax:
