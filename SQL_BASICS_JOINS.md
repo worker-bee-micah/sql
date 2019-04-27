@@ -38,15 +38,15 @@ ___
 **Cross Joins, Cartesian Product**
 If you do not join the tables, all possible rows will result.
 
-> SELECT *
-> 
-> FROM upfall CROSS JOIN county;
->
-> SELECT e.emp_id, e.last_name, p.position
-> 
-> FROM employee_tbl e,
-> 
->     employee_pay_table p;
+>> SELECT *
+>> 
+>> FROM upfall CROSS JOIN county;
+>>
+>> SELECT e.emp_id, e.last_name, p.position
+>> 
+>> FROM employee_tbl e,
+>> 
+>>     employee_pay_table p;
 
 ___
 **Equijoins, Non-Equijoins**
