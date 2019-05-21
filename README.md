@@ -19,7 +19,7 @@ Links to SQL code sources:
 [Dave Berry : Pluralsight](https://www.pluralsight.com/authors/david-berry)
 
 
-I have some SQLite3 examples in this [notebook]{https://nbviewer.jupyter.org/github/worker-bee-micah/sql/blob/master/00_mt_SQLite_builds.ipynb}, This assumes that you have installed the default configuration of Anaconda.  SQLite3 schema contain basic data types, dates are stored a text columns.  The cursor examples will work on a local host, multi-system transactions will require additionalnetwork configurations.
+I have some SQLite3 examples in this [notebook]{https://nbviewer.jupyter.org/github/worker-bee-micah/sql/blob/master/00_mt_SQLite_builds.ipynb}, This assumes that you have installed the default configuration of Anaconda.  SQLite3 schema contain basic data types, dates are stored a text columns.  The cursor examples will work on a local host, multi-system transactions will require additional network configurations.
 
 
 Some basic Oracle based code examples are included here, you should be able to paste these code blocks into SQL*Develper.
