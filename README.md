@@ -29,7 +29,9 @@ This notebook will create the output files prospective_students_import_oracle.sq
 
 
 
-PostgreSQL examples coming soon!!
+PostgreSQL examples that cover the basics are covered in this [notebook]{https://nbviewer.jupyter.org/github/worker-bee-micah/sql/blob/master/00_mt_PostgreSQL_core_builds.ipynb}.  This notebook will create the output files mt_botanica_shema.sql, pg_test_conn.sh   .
+
+Advanced builds and PL/pgSQL notebooks coming soon.
 
 
 
