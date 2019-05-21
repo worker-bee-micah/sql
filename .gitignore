@@ -4,3 +4,4 @@ build/
 temp-*
 .env
 .ipynb_checkpoints
+.gitignore
