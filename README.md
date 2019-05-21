@@ -23,9 +23,9 @@ I have some SQLite3 examples in this [notebook]{https://nbviewer.jupyter.org/git
 
 
 Some basic Oracle based code examples are included here, you should be able to paste these code blocks into SQL*Develper.
-[Oracle core builds]{https://nbviewer.jupyter.org/github/worker-bee-micah/sql/blob/master/00_mt_SQL_Oracle_core_builds.ipynb]
+[Oracle core builds]{https://nbviewer.jupyter.org/github/worker-bee-micah/sql/blob/master/00_mt_SQL_Oracle_core_builds.ipynb}
 
-This notebook will create the output files prospective_students_import_oracle.sql, treasure_map_yorders.sql.  You should be able to paste these into an IDE console or terminal access.
+This notebook will create the output files prospective_students_import_oracle.sql, treasure_map_yorders.sql.  You should be able to paste these into an IDE console or terminal shell.
 
 
 
